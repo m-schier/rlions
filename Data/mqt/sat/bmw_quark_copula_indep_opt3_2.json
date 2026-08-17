@@ -1,0 +1,40 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      1,
+      0
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7
+  ],
+  "compile_time": 0.09656941890716553,
+  "name": "bmw_quark_copula_indep_opt3_2.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/bmw_quark_copula_indep_opt3_2.json"
+}

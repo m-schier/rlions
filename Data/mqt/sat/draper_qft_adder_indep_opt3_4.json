@@ -1,0 +1,73 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  "compiler_movements": [
+    8,
+    7,
+    10,
+    5,
+    7,
+    4,
+    3,
+    10,
+    7,
+    5,
+    7,
+    4,
+    0,
+    3,
+    3,
+    7,
+    10
+  ],
+  "compile_time": 42.93881219625473,
+  "name": "draper_qft_adder_indep_opt3_4.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/draper_qft_adder_indep_opt3_4.json"
+}

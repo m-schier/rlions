@@ -1,0 +1,1 @@
+Data of "RLIonS: Reinforcement Learning for Ion Shuttling" © 2026 by Maximilian Schier, Lea Richtmann, Christian Staufenbiel, Tobias Schmale, Daniel Borcherding, Michèle Heurs, Bodo Rosenhahn is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/ 

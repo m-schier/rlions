@@ -1,0 +1,1 @@
+{"circuit": [[0, 1], [2, 0], [2, 0]], "chip_state": {"compute": [], "spam": [], "storage": [], "temp_storage": [2, 1, 0]}, "compiler_movements": [7, 7, 3, 7], "compile_time": 0.0014731884002685547}

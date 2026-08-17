@@ -1,0 +1,55 @@
+{
+  "circuit": [
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      0,
+      1,
+      2
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    3,
+    7,
+    5,
+    0,
+    3,
+    3,
+    10,
+    0,
+    5,
+    0
+  ],
+  "compile_time": 2.9567893370985985,
+  "name": "half_adder_indep_opt3_3.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/half_adder_indep_opt3_3.json"
+}

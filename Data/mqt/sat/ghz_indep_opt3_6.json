@@ -1,0 +1,60 @@
+{
+  "circuit": [
+    [
+      5,
+      4
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      4
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    3,
+    7,
+    5,
+    3,
+    7,
+    10,
+    5,
+    3,
+    7,
+    0,
+    3,
+    7
+  ],
+  "compile_time": 11.397644400596619,
+  "name": "ghz_indep_opt3_6.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/ghz_indep_opt3_6.json"
+}

@@ -1,0 +1,66 @@
+{
+  "circuit": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    3,
+    5,
+    7,
+    7,
+    4,
+    0,
+    4,
+    10,
+    5,
+    3,
+    7,
+    10
+  ],
+  "compile_time": 4.715961195528507,
+  "name": "qpeexact_indep_opt3_4.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/qpeexact_indep_opt3_4.json"
+}

@@ -1,0 +1,28 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      1,
+      0
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7
+  ],
+  "compile_time": 0.09352970868349075,
+  "name": "grover_indep_opt3_2.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/grover_indep_opt3_2.json"
+}

@@ -1,0 +1,44 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    3,
+    7,
+    5,
+    3,
+    10,
+    7
+  ],
+  "compile_time": 2.215581715106964,
+  "name": "qnn_indep_opt3_4.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/qnn_indep_opt3_4.json"
+}

@@ -1,0 +1,61 @@
+{
+  "circuit": [
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      4,
+      3,
+      2,
+      1,
+      0,
+      5
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    3,
+    7,
+    3,
+    7,
+    5,
+    7,
+    6,
+    4,
+    0,
+    4,
+    4,
+    0,
+    0
+  ],
+  "compile_time": 12.24680232256651,
+  "name": "dj_indep_opt3_6.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/dj_indep_opt3_6.json"
+}

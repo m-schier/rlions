@@ -1,0 +1,28 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      1,
+      0
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7
+  ],
+  "compile_time": 0.10886995494365692,
+  "name": "qaoa_indep_opt3_2.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/qaoa_indep_opt3_2.json"
+}

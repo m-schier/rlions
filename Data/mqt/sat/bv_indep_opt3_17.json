@@ -1,0 +1,73 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      8,
+      1
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    5,
+    7,
+    3,
+    7,
+    3,
+    7,
+    3,
+    7,
+    3,
+    7,
+    3,
+    7,
+    3,
+    7
+  ],
+  "compile_time": 57.51095072925091,
+  "name": "bv_indep_opt3_17.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/bv_indep_opt3_17.json"
+}

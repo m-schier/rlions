@@ -1,0 +1,45 @@
+{
+  "circuit": [
+    [
+      2,
+      0
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      8,
+      6,
+      4,
+      2,
+      0
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    5,
+    7,
+    3,
+    7,
+    3,
+    7
+  ],
+  "compile_time": 5.386330522596836,
+  "name": "bv_indep_opt3_10.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/bv_indep_opt3_10.json"
+}

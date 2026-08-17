@@ -1,0 +1,28 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      1,
+      0
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7
+  ],
+  "compile_time": 0.05149112641811371,
+  "name": "draper_qft_adder_indep_opt3_2.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/draper_qft_adder_indep_opt3_2.json"
+}

@@ -1,0 +1,84 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    5,
+    7,
+    4,
+    10,
+    3,
+    5,
+    7,
+    7,
+    4,
+    3,
+    10,
+    0,
+    5,
+    0,
+    3,
+    3,
+    10,
+    7,
+    4,
+    0,
+    3,
+    7
+  ],
+  "compile_time": 32.238114058971405,
+  "name": "vqe_real_amp_indep_opt3_4.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/vqe_real_amp_indep_opt3_4.json"
+}

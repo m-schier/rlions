@@ -1,0 +1,49 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      2,
+      1,
+      0
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    3,
+    7,
+    5,
+    0
+  ],
+  "compile_time": 0.9357336387038231,
+  "name": "hhl_indep_opt3_3.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/hhl_indep_opt3_3.json"
+}

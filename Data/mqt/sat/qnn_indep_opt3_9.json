@@ -1,0 +1,83 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      8,
+      7
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    3,
+    7,
+    5,
+    3,
+    7,
+    10,
+    3,
+    7,
+    5,
+    3,
+    7,
+    10,
+    3,
+    7,
+    5,
+    3,
+    7,
+    10,
+    3,
+    7
+  ],
+  "compile_time": 79.2752665579319,
+  "name": "qnn_indep_opt3_9.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/qnn_indep_opt3_9.json"
+}

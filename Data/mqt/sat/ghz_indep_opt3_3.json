@@ -1,0 +1,35 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      2,
+      0,
+      1
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    3,
+    7
+  ],
+  "compile_time": 0.2388361170887947,
+  "name": "ghz_indep_opt3_3.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/ghz_indep_opt3_3.json"
+}

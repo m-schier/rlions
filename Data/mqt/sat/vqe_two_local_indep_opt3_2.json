@@ -1,0 +1,36 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      1,
+      0
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7
+  ],
+  "compile_time": 0.2092824950814247,
+  "name": "vqe_two_local_indep_opt3_2.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/vqe_two_local_indep_opt3_2.json"
+}

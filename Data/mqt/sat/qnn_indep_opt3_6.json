@@ -1,0 +1,60 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      4
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    3,
+    7,
+    5,
+    3,
+    7,
+    10,
+    3,
+    7,
+    5,
+    3,
+    10,
+    7
+  ],
+  "compile_time": 12.648402065038681,
+  "name": "qnn_indep_opt3_6.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/qnn_indep_opt3_6.json"
+}

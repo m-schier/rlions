@@ -1,0 +1,92 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    3,
+    7,
+    5,
+    0,
+    4,
+    10,
+    3,
+    5,
+    7,
+    0,
+    3,
+    4,
+    10,
+    7,
+    5,
+    7,
+    4,
+    10,
+    3,
+    3,
+    7,
+    0,
+    5,
+    0,
+    4,
+    0
+  ],
+  "compile_time": 59.0886063054204,
+  "name": "vbe_ripple_carry_adder_indep_opt3_4.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/vbe_ripple_carry_adder_indep_opt3_4.json"
+}

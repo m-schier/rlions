@@ -1,0 +1,13 @@
+chex==0.1.86
+flax==0.8.4
+jax==0.4.28
+jax-cuda12-pjrt==0.4.28
+jax-cuda12-plugin==0.4.28
+jaxlib==0.4.28
+mlflow==3.8.1
+mlflow-skinny==3.8.1
+mlflow-tracing==3.8.1
+nvidia-cudnn-cu12==8.9.7.29
+optax==0.2.2
+pytest==8.2.2
+seaborn==0.13.2

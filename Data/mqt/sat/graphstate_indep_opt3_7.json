@@ -1,0 +1,80 @@
+{
+  "circuit": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      6,
+      4,
+      5,
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    5,
+    3,
+    7,
+    7,
+    4,
+    0,
+    3,
+    3,
+    7,
+    7,
+    3,
+    3,
+    10,
+    7,
+    5,
+    0,
+    6,
+    4,
+    4,
+    0,
+    0,
+    4,
+    10
+  ],
+  "compile_time": 71.7260629311204,
+  "name": "graphstate_indep_opt3_7.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/graphstate_indep_opt3_7.json"
+}

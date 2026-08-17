@@ -1,0 +1,53 @@
+{
+  "circuit": [
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "chip_state": {
+    "compute": [],
+    "spam": [],
+    "storage": [],
+    "tempstorage": [
+      3,
+      2,
+      1,
+      0,
+      4
+    ]
+  },
+  "compiler_movements": [
+    7,
+    7,
+    3,
+    7,
+    3,
+    7,
+    5,
+    7,
+    4,
+    4,
+    0,
+    0
+  ],
+  "compile_time": 36.359565153717995,
+  "name": "dj_indep_opt3_5.json",
+  "file_name": "./rl_comparison_data_mqt/sat_results/dj_indep_opt3_5.json"
+}
