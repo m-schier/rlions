@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="rlions",
-    version="0.1",
+    version="1.0.0",
     author="Maximilian Schier, Lea Richtmann",
     description=(
         "Ion shuttling compiler for trapped-ion quantum computers using reinforcement learning"
