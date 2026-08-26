@@ -39,7 +39,7 @@ def main():
     from itertools import product
 
     parser = ArgumentParser()
-    parser.add_argument('--csv', nargs='+', default='Data/qv6_long/rlions/long-qv6-qvls_x_50_b_fd_l4.csv')
+    parser.add_argument('--csv', nargs='+', default=['Data/qv6_long/rlions/long-qv6-qvls_x_50_b_fd_l4.csv'])
     args = parser.parse_args()
 
     print(f"{args = }", file=sys.stderr)
