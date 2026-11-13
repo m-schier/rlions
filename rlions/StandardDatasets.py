@@ -26,7 +26,7 @@ class DataSet:
     name: str
 
 
-def load_qvs(size, chip, root="Data/qv_json_new"):
+def load_qvs(size, chip, root="Data/qv/heuristic"):
     from glob import glob
     from rlions.TestSets import load_tests
     import os
@@ -45,7 +45,7 @@ def load_mqt(chip, problems=None):
     import json
 
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    paths = list(glob(f"{root}/Data/mqt_json_new/*.json"))
+    paths = list(glob(f"{root}/Data/mqt/heuristic/*.json"))
 
     max_qubits = chip.make_observation_adapter().max_qubits
 
