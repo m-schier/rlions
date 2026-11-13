@@ -26,14 +26,14 @@ pip install -r requirements.win.txt
 To train an RLIonS compiler, run `rlions_train.py`. The important commands to replicate experiments from the paper are:
 ```bash
 # Agents for main expriments for three architectures
-PYTHONPATH=. python ppo_example.py --chip qvls_x_50
-PYTHONPATH=. python ppo_example.py --chip qvls_q_50
-PYTHONPATH=. python ppo_example.py --chip qvls_q_50_s3
+PYTHONPATH=. python rlions_train.py --chip qvls_x_50
+PYTHONPATH=. python rlions_train.py --chip qvls_q_50
+PYTHONPATH=. python rlions_train.py --chip qvls_q_50_s3
 # Agents for ablation experiments
-PYTHONPATH=. python ppo_example.py --tag qv50x_linear --chip qvls_x_50 --obs_number_encoder linear
-PYTHONPATH=. python ppo_example.py --tag qv50x_noshaped --chip qvls_x_50 --factor_completion 0
-PYTHONPATH=. python ppo_example.py --tag qv50x_same_gamma --chip qvls_x_50 --shaped_gamma 0.9995
-PYTHONPATH=. python ppo_example.py --tag qv50x_basic --chip qvls_x_50 --obs_encoder basic
+PYTHONPATH=. python rlions_train.py --tag qv50x_linear --chip qvls_x_50 --obs_number_encoder linear
+PYTHONPATH=. python rlions_train.py --tag qv50x_noshaped --chip qvls_x_50 --factor_completion 0
+PYTHONPATH=. python rlions_train.py --tag qv50x_same_gamma --chip qvls_x_50 --shaped_gamma 0.9995
+PYTHONPATH=. python rlions_train.py --tag qv50x_basic --chip qvls_x_50 --obs_encoder basic
 ```
 
 ## Compiling QV and MQT circuits
