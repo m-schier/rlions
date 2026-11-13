@@ -59,19 +59,19 @@ def run_search(policy, env_step, val_init, use_max_len):
         total_durations = jnp.sum(_step_durations * (jnp.arange(n_max) < _steps[..., None]), axis=-1)
         done = _terminated | _truncated
 
-        min_done = jnp.min(total_durations * done)
-        min_not_done = jnp.min(total_durations * (~done))
+        min_done = jnp.min(jnp.where(done, total_durations, jnp.inf))
+        min_not_done = jnp.min(jnp.where(~done, total_durations, jnp.inf))
 
         # Terminate if
         #  1. Any trajectory truncated (max steps reached for problem)
         #  2. Any step number has reached use_max_len (rollout limited)
         #  3. All trajectories terminated
-        #  4. Any episodes have terminated and the ratio of lowest terminated to lowest non-terminated is lower.
+        #  4. Any trajectory has terminated and the shortest still running has reached the best done trajectory
         return ~(
                 jnp.any(_truncated) |
                 jnp.any(_steps >= use_max_len) |
                 jnp.all(_terminated) |
-                (jnp.any(_terminated) & (min_done < min_not_done))
+                (jnp.any(_terminated) & (min_done <= min_not_done))
         )
 
     return jax.lax.while_loop(_loop_cond, _loop_body, val_init)
